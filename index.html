@@ -10,7 +10,10 @@
 </head>
     <body>
         <div id="app">
-            
+            <button @click="createTenEmail()">Genera 10 email casuali</button>
+            <ul>
+                <li v-for="(i, index) in array_email">{{ i }}</li>
+            </ul>
         </div>
     </body>
 </html>
