@@ -4,7 +4,6 @@ const app = Vue.createApp({
     data() {
         return {
             // VARIABILI CHE SERVONO PER LE FUNZIONI
-            email: '',
             array_email:[]
         }
     },
